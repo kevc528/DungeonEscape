@@ -23,8 +23,16 @@ public class HighScores {
     	
     	// map from score to list of scorers
 	    map = new TreeMap<Double, List<String>>();
+	    
+	    File f = new File(FILE);
+
 
 	    try {
+	    	
+	    	if (!f.exists()) {
+	    		f.createNewFile();
+	    	}
+	    	
 	        if (br == null) {
 	            br = new BufferedReader(new FileReader(FILE));
 	            
