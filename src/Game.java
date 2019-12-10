@@ -10,7 +10,7 @@ public class Game implements Runnable{
 	// the launching of the GUI
     public void run() {
 
-        final JFrame frame = new JFrame("KEY COLLECTOR");
+        final JFrame frame = new JFrame("DUNGEON ESCAPE");
         frame.setLocation(300, 300);
 
         frame.add(status_panel, BorderLayout.SOUTH);
