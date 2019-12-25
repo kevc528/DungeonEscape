@@ -28,7 +28,7 @@ public class Maze {
 	}
 	
 	public int[][] getGeneratedBoard(){
-		return this.board;
+		return board;
 	}
 	
 	Random random = new Random();

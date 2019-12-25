@@ -5,7 +5,7 @@ import javax.swing.*;
 import javax.swing.Timer;
 
 import java.util.*;
-
+import java.util.List;
 
 // This class is used to implement game logic and interactions between objects
 @SuppressWarnings("serial")
@@ -28,10 +28,10 @@ public class GameCourt extends JPanel {
     private int lastAttack = 0;
     
     // data structures to keep track of what is displayed on screen
-    private LinkedList<Path> pathList;
-    private LinkedList<Wall> wallList;
-    private LinkedList<Key> keyList;
-    private LinkedList<Monster> monsterList;
+    private List<Path> pathList;
+    private List<Wall> wallList;
+    private List<Key> keyList;
+    private List<Monster> monsterList;
     private Player player;
     
     // start menu
